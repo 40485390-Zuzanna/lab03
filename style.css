@@ -1,0 +1,96 @@
+.container {
+   display: flex;
+   flex-direction: row;
+   
+   justify-content: center;
+   margin: 2rem;
+}
+.wrap {
+flex-wrap: wrap; 
+}
+.container p {
+   padding: 2rem;
+   margin: 2rem;
+   border: 1px solid rgba(0, 0, 0, 0.164);
+   font-family: 'Courier New', Courier, monospace;
+   text-align: center;
+}
+
+.container div {
+   padding: 2rem;
+   margin: 1rem;
+   border-radius: 2.6rem;
+   border: 1px solid rgba(144, 217, 247, 0.567);
+   font-family: 'Courier New', Courier, monospace;
+   color: rgb(43, 47, 88);
+   background-color: rgba(180, 232, 253, 0.367);
+   font-size: 1rem;
+   font-weight: 300;
+}
+
+.container span {
+   font-size: 4rem;
+}
+
+.align-center {
+   text-align: center;
+}
+
+.large-font {
+   font-size: 6rem;
+}
+
+.sub-font {
+   font-size: 4rem;
+}
+.small-font {
+   font-size: 1.4rem;
+}
+.pink {
+   color: rgb(219, 81, 104);
+}
+.green {
+   color: rgb(40, 167, 114);
+}
+.blue {
+   color: rgb(5, 110, 114);
+}
+.bold {
+   font-weight: 800;
+}
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+li {
+   float: right;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+   background-color: #111;
+}
+
+.article {
+   margin: 4rem;
+}
+
+.article p {
+   padding: 0.4rem;
+   line-height: 2rem;
+}
+#footer {
+   position: fixed;
+   bottom: 0;
+}
+.align-right {
+   text-align: right;
+}
