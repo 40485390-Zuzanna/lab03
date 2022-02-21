@@ -1,4 +1,4 @@
-.container {
+.flex-container {
    display: flex;
    flex-direction: row;
    
@@ -8,7 +8,7 @@
 .wrap {
 flex-wrap: wrap; 
 }
-.container p {
+.flex-container p {
    padding: 2rem;
    margin: 2rem;
    border: 1px solid rgba(0, 0, 0, 0.164);
@@ -30,6 +30,24 @@ flex-wrap: wrap;
 
 .container span {
    font-size: 4rem;
+}
+
+.grid-container {
+   align-items: center;
+   display: grid;
+   grid-template-columns: auto auto auto;
+}
+
+.grid-item {
+   padding: 1em;
+   margin: 1em;
+   color: rgb(0, 21, 48);
+   border: 1px solid rgb(240, 240, 240);
+   font-size: 14px;
+   background: rgb(0, 71, 88);
+   color: white;
+   font-weight: bold;
+   text-align: center;
 }
 
 .align-center {
